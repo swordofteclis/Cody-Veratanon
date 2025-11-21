@@ -1,0 +1,51 @@
+# Network Security Lab
+
+Hands-on **network security** and **cyber defense** exercises using Python and common open-source tools.
+
+## 🎯 Goals
+
+- Practice basic **network scanning**, **log analysis**, and **traffic inspection**
+- Build repeatable labs for studying **intrusion detection** and **malicious activity**
+- Demonstrate practical **Python for cybersecurity**
+
+## 🧩 Lab Modules
+
+1. **Port Scanner (Python + nmap)**
+   - Simple wrapper around `nmap` or `python-nmap`
+   - Scan a target subnet or host
+   - Export results to JSON/CSV for later analysis
+
+2. **Log Analysis for Suspicious Activity**
+   - Parse sample web server logs (Apache/Nginx)
+   - Identify:
+     - Repeated failed logins
+     - Suspicious user-agents
+     - High-frequency requests from single IPs
+   - Output a summary report
+
+3. **PCAP Inspection Cheatsheets**
+   - Wireshark filter examples
+   - Notes on detecting:
+     - Port scans
+     - Cleartext credentials
+     - Simple exfil patterns
+
+4. **Firewall Rules Lab (Documentation)**
+   - Sample iptables / ufw rules
+   - Before/after test results
+   - Reflection notes on common misconfigurations
+
+## 🛠️ Tech & Tools
+
+- **Languages:** Python
+- **Tools:** `nmap`, Wireshark, tcpdump
+- **OS:** Linux (recommended) or WSL
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/swordofteclis/network-security-lab.git
+cd network-security-lab
+python3 -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
