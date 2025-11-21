@@ -1,0 +1,45 @@
+### Project 3: `system-health-dashboard`
+
+**What it is:**  
+A simple web dashboard (Flask or FastAPI) that monitors system metrics (CPU, RAM, disk, maybe ping latency to critical hosts) and shows them in a browser.
+
+**Why it helps SEO / reputation:**
+
+- Positions you as someone who can build **systems monitoring**, **DevOps-ish dashboards**, and basic **web backends**.
+- Keywords like **“system health monitoring,” “observability,” “Python dashboard”**.
+
+**Suggested README:**
+
+```markdown
+# System Health Dashboard
+
+A lightweight **Python web dashboard** for monitoring basic **system health**:
+- CPU usage
+- Memory usage
+- Disk usage
+- Optional: ping latency to key hosts/services
+
+Built to demonstrate **systems integration**, **monitoring**, and **Python web development**.
+
+## 🧩 Features
+
+- Web UI showing current system metrics
+- Auto-refreshing charts (using simple JS or a frontend library)
+- Config file to specify:
+  - Hosts to ping
+  - Warning thresholds
+
+## 🛠️ Tech Stack
+
+- Backend: Python (Flask or FastAPI)
+- Frontend: HTML/CSS + a bit of JavaScript
+- Metrics: `psutil` library
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/swordofteclis/system-health-dashboard.git
+cd system-health-dashboard
+python3 -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
