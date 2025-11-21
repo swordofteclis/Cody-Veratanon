@@ -1,0 +1,58 @@
+### Project 2: `rf-test-automation`
+
+**What it is:**  
+A small Python toolkit that simulates (or interfaces with) test instruments and processes S-parameter / RF measurement data.
+
+**Why it helps SEO / reputation:**
+
+- Links your name to **“RF test automation,” “S-parameter analysis,” “lab automation,” “Python for RF”**.
+- Great for roles blending **systems, RF, and test**.
+
+**Suggested README:**
+
+```markdown
+# RF Test Automation Toolkit
+
+A small **Python** framework for automating common **RF test** and **measurement** tasks, including:
+- Running parameter sweeps (simulated or instrument-backed)
+- Loading and processing **S-parameter** files
+- Generating summary reports and basic plots
+
+## 🎯 Project Purpose
+
+- Demonstrate skills in **test automation** and **data analysis**
+- Provide reusable code for lab workflows
+- Show comfort with **RF concepts** (S-parameters, insertion loss, return loss)
+
+## ✨ Features
+
+- `measurements/`  
+  - Example scripts for running frequency sweeps (simulated)
+  - Placeholder modules where you could add VISA/SCPI instrument control
+
+- `analysis/`
+  - Load `.s2p` files
+  - Compute:
+    - Magnitude/phase vs frequency
+    - Insertion loss
+    - Simple pass/fail checks vs spec
+
+- `reports/`
+  - Generate Markdown / HTML summary reports with:
+    - Plots
+    - Key stats
+    - Pass/fail table
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- Libraries: `numpy`, `scipy`, `matplotlib`, `scikit-rf` (optional)
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/swordofteclis/rf-test-automation.git
+cd rf-test-automation
+python3 -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
